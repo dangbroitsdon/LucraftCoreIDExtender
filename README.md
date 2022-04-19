@@ -1,2 +1,2 @@
 # Lucraft ID Extender
-Extends the Superpower ID Limit for Lucraft:Core using Mixins.
+Mixin Mod that extends the ID Limit for Registered Superpowers in Lucraft: Core
