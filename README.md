@@ -1,2 +1,2 @@
-# forge-mixin-example
-An example for using Mixin in Minecraft Forge
+# Lucraft ID Extender
+Extends the Superpower ID Limit for Lucraft:Core using Mixins.
