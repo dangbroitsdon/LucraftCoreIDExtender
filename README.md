@@ -1,2 +1,2 @@
 # Lucraft ID Extender
-Mixin Mod that extends the ID Limit for Registered Superpowers in Lucraft: Core to 8192.
+Mixin Mod for Minecraft that extends the ID Limit for Registered Superpowers in the Minecraft mod Lucraft: Core to 8192.
