@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "com.dangbroitsdon.lucraftidextend.mixins",
-  "refmap": "mixins.jeid.refmap.json",
+  "refmap": "mixins.lucraftidextend.refmap.json",
   "target": "@env(DEFAULT)",
   "minVersion": "0.6",
   "compatibilityLevel": "JAVA_8",
