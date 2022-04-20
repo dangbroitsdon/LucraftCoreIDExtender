@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.dangbroitsdon.lucraftcoreidextender.mixins",
+  "refmap": "mixins.lucraftcoreidextender.refmap.json",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.6",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "LucraftCoreIDExtenderMixin"
+  ]
+}

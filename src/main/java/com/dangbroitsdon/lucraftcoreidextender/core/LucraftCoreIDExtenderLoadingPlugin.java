@@ -1,4 +1,4 @@
-package com.dangbroitsdon.lucraftidextend.core;
+package com.dangbroitsdon.lucraftcoreidextender.core;
 
 import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import org.spongepowered.asm.launch.MixinBootstrap;
@@ -9,13 +9,13 @@ import javax.annotation.Nullable;
 import java.util.Map;
 
 @IFMLLoadingPlugin.MCVersion("1.12.2")
-@IFMLLoadingPlugin.Name("LucraftExtendedID")
-public class ExtendedIDLoadingPlugin implements IFMLLoadingPlugin {
+@IFMLLoadingPlugin.Name("LucraftCoreExtendedID")
+public class LucraftCoreIDExtenderLoadingPlugin implements IFMLLoadingPlugin {
 
-    public ExtendedIDLoadingPlugin() {
+    public LucraftCoreIDExtenderLoadingPlugin() {
         MixinBootstrap.init();
-        Mixins.addConfiguration("mixins.lucraftidextend.json");
-        System.out.println("Initializing IDEXTEND mixins");
+        Mixins.addConfiguration("mixins.lucraftcoreidextender.json");
+        System.out.println("Initializing Lucraft: Core ID Extender mixins");
         MixinEnvironment.getDefaultEnvironment().setObfuscationContext("searge");
     }
 
